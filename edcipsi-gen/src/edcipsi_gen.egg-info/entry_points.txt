@@ -1,0 +1,2 @@
+[console_scripts]
+edcipsi-gen = edcipsi_gen.cli:main

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edcipsi-gen"
+version = "0.1.0"
+description = "ED-CIPSI input generator and utilities"
+authors = [
+  { name = "Ryota Ono" }
+]
+readme = "README.md"
+license = { text = "MIT" }   # change if you use another license
+requires-python = ">=3.9"
+
+dependencies = [
+  "numpy",
+]
+
+[project.scripts]
+edcipsi-gen = "edcipsi_gen.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: edcipsi-gen
+Version: 0.1.0
+Summary: ED-CIPSI input generator and utilities
+Author: Ryota Ono
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy

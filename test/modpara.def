@@ -1,0 +1,9 @@
+Nsite                9
+CIPSIGrandCanonical  true
+CIPSISeeds           105
+CIPSICycles          64
+CIPSIAddPerCycle     945
+CIPSIPrune           512
+CIPSIEps             1e-06
+CIPSISeedMode        diag
+CIPSISeedPool        420

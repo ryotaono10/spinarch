@@ -1,0 +1,12 @@
+[2025-09-21 10:52:40] === Start ED-CIPSI ===
+[2025-09-21 10:52:40] Command: /home/ryota/miniconda3/bin/edcipsi namelist.def
+[2025-09-21 10:52:40] [READ] /home/ryota/Tools/MyProg/SPINACH/test/namelist.def
+[2025-09-21 10:52:40] [READ] /home/ryota/Tools/MyProg/SPINACH/test/modpara.def
+[2025-09-21 10:52:40] [OK] ModPara: Nsite=9, Grand=True, Seeds=105, Cycles=64
+[2025-09-21 10:52:40] [READ] /home/ryota/Tools/MyProg/SPINACH/test/interall.def
+[2025-09-21 10:52:40] [OK] InterAll: diag=72 bilinear=216 (0.001s)
+[2025-09-21 10:52:40] [HB] Preselection OFF
+[2025-09-21 10:52:40] [Cycle 1/64] Basis=105, E0=-0.52929080  E0/site=-0.058810 (|Im|=0.00e+00)
+[2025-09-21 10:52:40] [Cycle 2/64] Basis=140, E0=-0.64950000  E0/site=-0.072167 (|Im|=0.00e+00)
+[2025-09-21 10:52:40] [Final] Basis=140, E0=-0.649500000000  E0/site=-0.072166666667
+[2025-09-21 10:52:40] [DONE] Wrote energy to /home/ryota/Tools/MyProg/SPINACH/test/output/energy.out and greentwo to /home/ryota/Tools/MyProg/SPINACH/test/output/greentwo.out and greenone to /home/ryota/Tools/MyProg/SPINACH/test/output/greenone.out
